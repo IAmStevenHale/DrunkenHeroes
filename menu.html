@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drunken Heroes</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/drunkHero2.png" />
+  </head>
+
+  <body>
+    <main>
+      <link rel="stylesheet" href="styles.css" />
+      <div class="centreDivContents sway">
+        <a class="title">Drunken Heroes</a>
+      </div>
+      <div class="centreDivContents">
+        <a class="subtitle">What happens when Heroes Party?</a>
+      </div>
+      <br />
+      <br />
+      <div class="centreDivContents">
+        <button class="HSButton" onclick="playGame()">PLAY</button>
+      </div>
+      <div class="centreDivContents">
+        <button class="HSButton" onclick="rules()">RULES</button>
+      </div>
+      <div class="centreDivContents">
+        <button class="HSButton" onclick="disclaimer()">DISCLAIMER</button>
+      </div>
+
+      <div class="rulesDiv" id="rulesDiv">
+        <div class="centreDivContents" style="text-align: right">
+          <button class="XButton" onclick="closeRules()">X</button>
+        </div>
+        <a class="subtitle">Rules</a>
+        <p>
+          Whoever can chug the fastest starts. If two or more people believe
+          that their superpower is chugging, than a chug-off will be the
+          decider.
+          <br />
+          <br />
+          Draw a card and read it aloud (unless it says otherwise). Follow the
+          instructions on the card and try to survive.
+          <br />
+          Some cards will be marked "SECRET" - do not read these ones out loud.
+          <br />
+          Some cards can be held until later on - try and remember!
+          <br />
+          There are rare cards that allow you to gain permenant superpowers -
+          but at what cost?!
+          <br />
+          <br />
+          The Winner is the last Hero standing... Seriously though, the winner
+          is the person that can prove that they are the ultimate Drunken Hero
+          by not passing out.
+          <br />
+          <br />
+          Remember the aim is to have fun... who am I kidding, the aim is to
+          win.
+          <br />
+          Crush your enemies <i>and</i> your friends!
+        </p>
+      </div>
+      <div class="disclaimerDiv" id="disclaimerDiv">
+        <div class="centreDivContents" style="text-align: right">
+          <button class="XButton" onclick="closeDisclaimer()">X</button>
+        </div>
+        <a class="subtitle">Disclaimer</a>
+        <p>
+          Drunken Heroes® is intended for use by adults of legal drinking age.
+          It contains mature language.
+          <br />
+          <br />
+          Know your limits; Creators of this game shall not be responsible for
+          any harm that occurs during or related to play.
+          <br />
+          <br />
+          Playing Drunken Heroes® may be hazardous to your health. This game is
+          supposed to be fun. Do not do anything during or related to this game
+          that is illegal, makes you uncomfortable, or puts your health, safety,
+          or livelihood at risk.
+          <br />
+          <br />
+          Play at your own risk. By playing this game, you accept full
+          responsibility for your actions.
+          <br />
+          <br />
+          If you play this game in conjunction with drinking alcohol: PLEASE
+          DRINK RESPONSIBLY. DO NOT DRINK AND DRIVE.
+        </p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
